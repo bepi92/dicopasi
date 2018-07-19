@@ -1,0 +1,88 @@
+body {
+  background: #fff;
+  color: #444;
+  font-family: "Open Sans", sans-serif;
+}
+
+a {
+  color: #217dc6;
+  transition: 0.5s;
+
+}
+
+p {
+  padding: 0;
+  margin: 0 0 30px 0;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 400;
+  margin: 0 0 0 0;
+  padding: 0;
+}
+
+.header {
+      background-color:cadetblue;
+      position: fixed;
+      left: 0px;
+      top: 0px;
+      right: 0px;
+      min-width: 3000px;
+      overflow: hidden;
+}
+
+.header .image img{
+        display: block;
+        height: 100px;
+        padding: 25px
+}
+
+.header .text {
+  text-align: center;
+  top: 0;
+  bottom: 0;
+}
+
+.header .image,
+.header .text {
+        display: inline-block;
+        vertical-align: middle;
+        white-space: nowrap;
+}
+
+.sidenav {
+        height: 100%;
+        width: 220px;
+        position: fixed;
+        z-index: 1;
+        top:154px;
+        left: 0;
+        background-color: #111;
+        overflow-x: hidden;
+        padding-top: 20px;
+}
+
+.sidenav a {
+        padding: 6px 8px 6px 16px;
+        text-decoration: none;
+        font-size: 15px;
+        color: #818181;
+        display: block;
+}
+
+.sidenav a:hover, a.selected {
+        text-decoration: underline;
+        color: #f1f1f1;
+}
+
+.main {
+  margin-right: 100px;
+  margin-left: 220px;
+  margin-top: 150px;
+  padding: 5px 5px 5px 5px;
+  justify-content: center;
+}
+.text{
+    white-space: nowrap;
+}
